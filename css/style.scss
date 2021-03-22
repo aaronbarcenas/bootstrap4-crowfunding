@@ -1,0 +1,35 @@
+$Moderate-cyan: hsl(176, 50%, 47%);
+$Dark-cyan: hsl(176, 72%, 28%);
+$Dark-gray: hsl(0, 0%, 48%);
+
+* {
+  box-sizing: border-box;
+  font-family: 'Commissioner', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background:#eee;
+
+}
+
+.bg-top-image {
+  background-image: url("../images/image-hero-desktop.jpg");
+  height: 510px;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+#my-container2 {
+  max-width: 1650px !important; 
+}
+/*
+.margin-nav {
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+}
+*/
+
